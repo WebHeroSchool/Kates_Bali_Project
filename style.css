@@ -1,0 +1,409 @@
+html, body{
+  height: 100%;
+}
+
+@media (min-width: 1024px){
+  body {
+    margin: 0;
+    background-image: url("img/iswanto_arif.png");
+    background-size: 1433px 955px;
+    background-position-x: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+}
+
+@media (min-width: 1366px){
+  body {
+    margin: 0;
+    background-image: url("img/iswanto.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .wrapper {
+    width: 89.6vw;
+    margin-left: 10.4vw;
+    position: relative;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 63px;
+    margin-left: 0;
+    margin-bottom: 92px;
+    margin-right: 81px;
+  }
+
+  .hamburger-menu,
+  .menu__box {
+    display: none;
+  }
+
+  .logo,
+  .menu {
+    display: inline-block;
+  }
+
+  .menu {
+    display: flex;
+    align-items:center;
+    margin-right: 0;
+  }
+
+  .logo{
+    width: 104px;
+    height: 39px;
+    margin-right: 680px;
+    background-image: url("img/logo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .menu__item {
+    position: relative;
+    margin-right: 24px;
+    font: 16px/19px "museo_sans_cyrl500", sans-serif;
+    color: #F8EEE4;
+    text-decoration: none;
+    transition: opacity 0.5s;
+  }
+
+  .menu__item:last-child {
+    margin-right: 0;
+  }
+
+  .menu__item::after {
+    position: absolute;
+    display: block;
+    content: "";
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #0056ec;
+    opacity: 0;
+    transition: opacity 0.5s, width 0.5s;
+  }
+
+  .menu__item:hover::after {
+    position: absolute;
+    display: block;
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #0056ec;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  .menu__item:hover {
+    opacity: 0.5;
+  }
+
+  .menu__item:hover::after,
+  .menu__item_active::after {
+    opacity: 1;
+    width: 100%;
+  }
+
+  .main {
+    position: relative;
+    height: 397px;
+  }
+
+  .main__title{
+    margin: 0;
+    font: 200px/265px "pt_serifbold", serif;
+    color: #F8EEE4;
+    opacity: 0.4;
+  }
+
+  .main__subtitle{
+    position: absolute;
+    top: 164px;
+    left: 59px;
+    z-index: 1;
+    font: 70px/93px "pt_serifbold", serif;
+    color: #F8EEE4;
+    margin: 0;
+  }
+
+  .main__text{
+    font: 16px/19px "museo_sans_cyrl500", sans-serif;
+    color: #F8EEE4;
+    width: 399px;
+    margin-left: 15px;
+    margin-top: 6px;
+    margin-bottom: 36px;
+  }
+
+  .main__button{
+    color: #fff;
+    font: 16px/26px "museo_sans_cyrl500", sans-serif;
+    position: relative;
+    padding: 12px 61px 12px 62px;
+    margin-left: 15px;
+    background: #D4BEA3;
+    text-decoration: none;
+    border-radius: 48px;
+    transition: opacity 0.5s;
+  }
+
+  .gallery{
+    position: absolute;
+    top: 214px;
+    left: 600px;
+    width: 657px;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .gallery__pic{
+    width: 202px;
+    height: 270px;
+    border-radius: 5px;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    transition: transform .2s;
+  }
+
+  .gallery__pic_pic2:hover,
+  .gallery__pic_pic3:hover{
+    transform: scale(1.1);
+  }
+
+  .gallery__pic_pic1{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 226px;
+    background: top right no-repeat url(img/pic1.svg);
+    background-size: cover;
+  }
+
+  .gallery__pic_pic2{
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 250px;
+    height: 270px;
+    width: 202px;
+    background: top right no-repeat url(img/pic2.svg);
+    background-size: cover;
+  }
+
+  .gallery__pic_pic3{
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 476px;
+    height: 270px;
+    width: 148px;
+    background: top right no-repeat url(img/pic3.svg);
+    background-size: cover;
+  }
+
+}
+
+@media (min-width: 1920px){
+  body {
+    margin: 0;
+    background-image: url("img/iswanto.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .wrapper {
+    width: 89.6vw;
+    margin-left: 10.4vw;
+    position: relative;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 88px;
+    margin-left: 0;
+    margin-bottom: 132px;
+    margin-right: 115px;
+  }
+
+  .hamburger-menu,
+  .menu__box {
+    display: none;
+  }
+
+  .logo,
+  .menu {
+    display: inline-block;
+  }
+
+  .menu {
+    display: flex;
+    align-items:center;
+    margin-right: 0;
+  }
+
+  .logo{
+    width: 146px;
+    height: 55px;
+    margin-right: 956px;
+    background-image: url("img/logo.svg");
+    background-repeat: no-repeat;
+  }
+
+  .menu__item {
+    position: relative;
+    margin-right: 37px;
+    font: 22px/26px "museo_sans_cyrl500", sans-serif;
+    color: #F8EEE4;
+    text-decoration: none;
+    transition: opacity 0.5s;
+  }
+
+  .menu__item:last-child {
+    margin-right: 0;
+  }
+
+  .menu__item::after {
+    position: absolute;
+    display: block;
+    content: "";
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #0056ec;
+    opacity: 0;
+    transition: opacity 0.5s, width 0.5s;
+  }
+
+  .menu__item:hover::after {
+    position: absolute;
+    display: block;
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #0056ec;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  .menu__item:hover {
+    opacity: 0.5;
+  }
+
+  .menu__item:hover::after,
+  .menu__item_active::after {
+    opacity: 1;
+    width: 100%;
+  }
+
+  .main {
+    position: relative;
+    height: 558px;
+  }
+
+  .main__title{
+    margin: 0;
+    font: 280px/371px "pt_serifbold", serif;
+    color: #F8EEE4;
+    opacity: 0.4;
+  }
+
+  .main__subtitle{
+    position: absolute;
+    left: 83px;
+    top: 231px;
+    z-index: 1;
+    font: 98px/130px "pt_serifbold", serif;
+    color: #F8EEE4;
+    margin: 0;
+  }
+
+  .main__text{
+    font: 22px/26px "museo_sans_cyrl500", sans-serif;
+    color: #F8EEE4;
+    width: 551px;
+    margin-top: 9px;
+    margin-left: 20px;
+    margin-bottom: 54px;
+  }
+
+  .main__button{
+    color: #fff;
+    font: 22px/26px "museo_sans_cyrl500", sans-serif;
+    position: relative;
+    padding: 17px 86px 17px 87px;
+    margin-left: 22px;
+    background: #D4BEA3;
+    text-decoration: none;
+    border-radius: 48px;
+    transition: opacity 0.5s;
+  }
+
+  .gallery{
+    position: absolute;
+    top: 301px;
+    left: 843px;
+    width: 923px;
+    height: 422px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .gallery__pic{
+    width: 284px;
+    height: 380px;
+    border-radius: 5px;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    transition: transform .2s;
+  }
+
+  .gallery__pic_pic2:hover,
+  .gallery__pic_pic3:hover{
+    transform: scale(1.1);
+  }
+
+  .gallery__pic_pic1{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 422px;
+    width: 317px;
+    background: top right no-repeat url(img/pic1.svg);
+    background-size: cover;
+  }
+
+  .gallery__pic_pic2{
+    display: inline-block;
+    position: absolute;
+    top: 21px;
+    left: 351px;
+    height: 380px;
+    width: 284px;
+    background: top right no-repeat url(img/pic2.svg);
+    background-size: cover;
+  }
+
+  .gallery__pic_pic3{
+    display: inline-block;
+    position: absolute;
+    top: 21px;
+    left: 669px;
+    height: 380px;
+    width: 208px;
+    background: top right no-repeat url(img/pic3.svg);
+    background-size: cover;
+  }
+}

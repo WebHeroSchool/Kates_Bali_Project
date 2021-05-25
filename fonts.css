@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "museo_sans_cyrl500";
+  src: url('fonts/museosanscyrl-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+    font-family: "pt_serifbold";
+    src: url('fonts/pt_serifbold.woff') format('woff');
+    font-weight: 700;
+    font-style: bold;
