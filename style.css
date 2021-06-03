@@ -2,7 +2,7 @@ html, body{
   height: 100%;
 }
 
-@media (min-width: 200px) and (max-width: 1023px){
+@media (min-width: 200px) and (max-width: 1019px){
   body {
     margin: 0;
     background-image: url("img/iswanto_arif.png");
@@ -47,7 +47,10 @@ html, body{
 
   .main {
     position: relative;
+    width: 343px;
     height: 65vh;
+    left: -8px;
+    margin: auto;
   }
 
   .main__title{
@@ -68,19 +71,17 @@ html, body{
   }
 
   .main__text{
-    font: 18px/22px "museo_sans_cyrl500", sans-serif;
+    font: 18px/21.6px "MuseoSansCyrl300", sans-serif;
+    letter-spacing: 0.2px;
     color: #F8EEE4;
-    width: 293px;
+    width: 295px;
     margin: 39px auto 46px auto;
-    /*margin-left: 25px;
-    margin-top: 39px;
-    margin-bottom: 46px;*/
     text-align: center;
   }
 
   .main__button{
     color: #fff;
-    font: 16px/19px "museo_sans_cyrl500", sans-serif;
+    font: 16px/19px "MuseoSansCyrl700", sans-serif;
     position: relative;
     padding: 12px 61px 12px 62px;
     margin-left: 60px;
@@ -149,7 +150,7 @@ html, body{
     display: block;
     padding: 0 0 24px 0;
     color: #000;
-    font: normal 30px/36px "museo_sans_cyrl500", sans-serif;
+    font: normal 30px/36px "MuseoSansCyrl700", sans-serif;
     text-decoration: none;
     transition: 0.5s;
   }
@@ -183,7 +184,7 @@ html, body{
 
 }
 
-@media (min-width: 1024px) and (max-width: 1365px){
+@media (min-width: 1020px) and (max-width: 1365px){
   body {
     margin: 0;
     background-image: url("img/iswanto_arif.png");
@@ -205,7 +206,7 @@ html, body{
     justify-content: space-between;
     margin-top: 63px;
     margin-left: 0;
-    margin-bottom: 94px;
+    margin-bottom: 98px;
     margin-right: 37px;
   }
 
@@ -236,8 +237,8 @@ html, body{
 
   .menu__item {
     position: relative;
-    margin-right: 24px;
-    font: 16px/19px "museo_sans_cyrl500", sans-serif;
+    margin-right: 26px;
+    font: 16px/19px "MuseoSansCyrl500", sans-serif;
     color: #F8EEE4;
     text-decoration: none;
     transition: opacity 0.5s;
@@ -295,7 +296,7 @@ html, body{
 
   .main__subtitle{
     position: absolute;
-    top: 164px;
+    top: 162px;
     left: 59px;
     z-index: 1;
     font: 70px/93px "pt_serifbold", serif;
@@ -304,19 +305,19 @@ html, body{
   }
 
   .main__text{
-    font: 16px/19px "museo_sans_cyrl500", sans-serif;
+    font: 16px/19px "MuseoSansCyrl500_normal", sans-serif;
     color: #F8EEE4;
     width: 399px;
     margin-left: 15px;
-    margin-top: 6px;
+    margin-top: 3px;
     margin-bottom: 36px;
   }
 
   .main__button{
     color: #fff;
-    font: 16px/19px "museo_sans_cyrl500", sans-serif;
+    font: 16px/19px "MuseoSansCyrl700", sans-serif;
     position: relative;
-    padding: 12px 61px 12px 62px;
+    padding: 12px 63px 12px 62px;
     margin-left: 15px;
     background: #D4BEA3;
     text-decoration: none;
@@ -327,7 +328,8 @@ html, body{
   .gallery{
     position: absolute;
     top: 216px;
-    left: 470px;
+    /*left: 470px;*/
+    right: -144px;
     width: 657px;
     height: 300px;
     padding: 0;
@@ -352,6 +354,7 @@ html, body{
   .gallery__pic_pic1{
     display: inline-block;
     position: absolute;
+    transform: scaleX(-1);
     top: 0;
     left: 0;
     height: 300px;
@@ -363,6 +366,7 @@ html, body{
   .gallery__pic_pic2{
     display: inline-block;
     position: absolute;
+    transform: scaleY(-1);
     top: 15px;
     left: 250px;
     height: 270px;
@@ -374,6 +378,7 @@ html, body{
   .gallery__pic_pic3{
     display: inline-block;
     position: absolute;
+    transform: scaleX(-1);
     top: 15px;
     left: 476px;
     height: 270px;
@@ -385,13 +390,219 @@ html, body{
 
 }
 
-@media (min-width: 1366px) and (max-width: 1919px){
+@media (min-width: 1366px) and (max-width: 1430px){
   body {
     margin: 0;
     background-image: url("img/iswanto_arif.png");
     background-size: 1433px 955px;
     background-position-x: center;
     background-position-y: -40px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  .wrapper {
+    width: 89.6vw;
+    margin-left: 10.4vw;
+    position: relative;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 63px;
+    margin-left: 0;
+    margin-bottom: 95px;
+    margin-right: 81px;
+  }
+
+  .hamburger-menu,
+  .menu__box {
+    display: none;
+  }
+
+  .logo,
+  .menu {
+    display: inline-block;
+  }
+
+  .menu {
+    display: flex;
+    align-items:center;
+    margin-right: 0;
+  }
+
+  .logo{
+    width: 104px;
+    height: 39px;
+    margin-right: 680px;
+    background-image: url("img/logo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .menu__item {
+    position: relative;
+    margin-right: 26px;
+    font: 16px/19px "MuseoSansCyrl500", sans-serif;
+    color: #F8EEE4;
+    text-decoration: none;
+    transition: opacity 0.5s;
+  }
+
+  .menu__item:last-child {
+    margin-right: 0;
+  }
+
+  .menu__item::after {
+    position: absolute;
+    display: block;
+    content: "";
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #0056ec;
+    opacity: 0;
+    transition: opacity 0.5s, width 0.5s;
+  }
+
+  .menu__item:hover::after {
+    position: absolute;
+    display: block;
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #0056ec;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  .menu__item:hover {
+    opacity: 0.5;
+  }
+
+  .menu__item:hover::after,
+  .menu__item_active::after {
+    opacity: 1;
+    width: 100%;
+  }
+
+  .main {
+    position: relative;
+    height: 397px;
+  }
+
+  .main__title{
+    margin: 0;
+    font: 200px/265px "pt_serifbold", serif;
+    color: #F8EEE4;
+    opacity: 0.4;
+  }
+
+  .main__subtitle{
+    position: absolute;
+    top: 163px;
+    left: 59px;
+    z-index: 1;
+    font: 70px/93px "pt_serifbold", serif;
+    color: #F8EEE4;
+    margin: 0;
+  }
+
+  .main__text{
+    font: 16px/19px "MuseoSansCyrl500_normal", sans-serif;
+    color: #F8EEE4;
+    width: 399px;
+    margin-left: 15px;
+    margin-top: 3px;
+    margin-bottom: 36px;
+  }
+
+  .main__button{
+    color: #fff;
+    font: 16px/19px "MuseoSansCyrl700", sans-serif;
+    position: relative;
+    padding: 12px 61px 12px 62px;
+    margin-left: 15px;
+    background: #D4BEA3;
+    text-decoration: none;
+    border-radius: 48px;
+    transition: opacity 0.5s;
+  }
+
+  .gallery{
+    position: absolute;
+    top: 214px;
+    /*left: 600px;*/
+    right: -33px;
+    width: 657px;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .gallery__pic{
+    width: 202px;
+    height: 270px;
+    border-radius: 5px;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    transition: transform .2s;
+  }
+
+  .gallery__pic_pic2:hover,
+  .gallery__pic_pic3:hover{
+    transform: scale(1.1);
+  }
+
+  .gallery__pic_pic1{
+    display: inline-block;
+    position: absolute;
+    transform: scaleX(-1);
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 226px;
+    background: top right no-repeat url(img/pic1.svg);
+    background-size: cover;
+  }
+
+  .gallery__pic_pic2{
+    display: inline-block;
+    position: absolute;
+    transform: scaleY(-1);
+    top: 15px;
+    left: 250px;
+    height: 270px;
+    width: 202px;
+    background: top right no-repeat url(img/pic2.svg);
+    background-size: cover;
+  }
+
+  .gallery__pic_pic3{
+    display: inline-block;
+    position: absolute;
+    transform: scaleX(-1);
+    top: 15px;
+    left: 476px;
+    height: 270px;
+    width: 181px;
+    background: top right no-repeat url(img/pic3.svg);
+    background-size: cover;
+    overflow: hidden;
+  }
+
+}
+
+@media (min-width: 1431px) and (max-width: 1919px){
+  body {
+    margin: 0;
+    background-image: url("img/iswanto_arif.png");
+    background-size: 2014px 1343px;
+    background-position-x: center;
+    background-position-y: -56px;
     overflow: hidden;
     background-repeat: no-repeat;
   }
@@ -438,8 +649,8 @@ html, body{
 
   .menu__item {
     position: relative;
-    margin-right: 24px;
-    font: 16px/19px "museo_sans_cyrl500", sans-serif;
+    margin-right: 26px;
+    font: 16px/19px "MuseoSansCyrl500", sans-serif;
     color: #F8EEE4;
     text-decoration: none;
     transition: opacity 0.5s;
@@ -506,7 +717,7 @@ html, body{
   }
 
   .main__text{
-    font: 16px/19px "museo_sans_cyrl500", sans-serif;
+    font: 16px/19px "MuseoSansCyrl500_normal", sans-serif;
     color: #F8EEE4;
     width: 399px;
     margin-left: 15px;
@@ -516,7 +727,7 @@ html, body{
 
   .main__button{
     color: #fff;
-    font: 16px/19px "museo_sans_cyrl500", sans-serif;
+    font: 16px/19px "MuseoSansCyrl700", sans-serif;
     position: relative;
     padding: 12px 61px 12px 62px;
     margin-left: 15px;
@@ -529,7 +740,8 @@ html, body{
   .gallery{
     position: absolute;
     top: 214px;
-    left: 600px;
+    /*left: 600px;*/
+    right: -33px;
     width: 657px;
     height: 300px;
     padding: 0;
@@ -554,6 +766,7 @@ html, body{
   .gallery__pic_pic1{
     display: inline-block;
     position: absolute;
+    transform: scaleX(-1);
     top: 0;
     left: 0;
     height: 300px;
@@ -565,6 +778,7 @@ html, body{
   .gallery__pic_pic2{
     display: inline-block;
     position: absolute;
+    transform: scaleY(-1);
     top: 15px;
     left: 250px;
     height: 270px;
@@ -576,6 +790,7 @@ html, body{
   .gallery__pic_pic3{
     display: inline-block;
     position: absolute;
+    transform: scaleX(-1);
     top: 15px;
     left: 476px;
     height: 270px;
@@ -639,8 +854,8 @@ html, body{
 
   .menu__item {
     position: relative;
-    margin-right: 37px;
-    font: 22px/26px "museo_sans_cyrl500", sans-serif;
+    margin-right: 38px;
+    font: 22px/26px "MuseoSansCyrl500", sans-serif;
     color: #F8EEE4;
     text-decoration: none;
     transition: opacity 0.5s;
@@ -707,7 +922,7 @@ html, body{
   }
 
   .main__text{
-    font: 22px/26px "museo_sans_cyrl500", sans-serif;
+    font: 22px/26px "MuseoSansCyrl500_normal", sans-serif;
     color: #F8EEE4;
     width: 551px;
     margin-top: 9px;
@@ -717,7 +932,7 @@ html, body{
 
   .main__button{
     color: #fff;
-    font: 22px/26px "museo_sans_cyrl500", sans-serif;
+    font: 22px/26px "MuseoSansCyrl700", sans-serif;
     position: relative;
     padding: 17px 86px 17px 87px;
     margin-left: 22px;
@@ -730,7 +945,8 @@ html, body{
   .gallery{
     position: absolute;
     top: 301px;
-    left: 843px;
+    /*left: 843px;*/
+    right: -46px;
     width: 923px;
     height: 422px;
     padding: 0;
@@ -755,6 +971,7 @@ html, body{
   .gallery__pic_pic1{
     display: inline-block;
     position: absolute;
+    transform: scaleX(-1);
     top: 0;
     left: 0;
     height: 422px;
@@ -766,6 +983,7 @@ html, body{
   .gallery__pic_pic2{
     display: inline-block;
     position: absolute;
+    transform: scaleY(-1);
     top: 21px;
     left: 351px;
     height: 380px;
@@ -777,6 +995,7 @@ html, body{
   .gallery__pic_pic3{
     display: inline-block;
     position: absolute;
+    transform: scaleX(-1);
     top: 21px;
     left: 669px;
     height: 380px;
