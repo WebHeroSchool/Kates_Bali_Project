@@ -359,7 +359,7 @@ html, body{
     left: 0;
     height: 300px;
     width: 226px;
-    background: top right no-repeat url(img/pic1.svg);
+    background: top right no-repeat url(img/pic1.jpg);
     background-size: cover;
   }
 
@@ -371,7 +371,7 @@ html, body{
     left: 250px;
     height: 270px;
     width: 202px;
-    background: top right no-repeat url(img/pic2.svg);
+    background: top right no-repeat url(img/pic2.jpg);
     background-size: cover;
   }
 
@@ -383,7 +383,7 @@ html, body{
     left: 476px;
     height: 270px;
     width: 181px;
-    background: top right no-repeat url(img/pic3.svg);
+    background: top right no-repeat url(img/pic3.jpg);
     background-size: cover;
     overflow: hidden;
   }
@@ -565,7 +565,7 @@ html, body{
     left: 0;
     height: 300px;
     width: 226px;
-    background: top right no-repeat url(img/pic1.svg);
+    background: top right no-repeat url(img/pic1.jpg);
     background-size: cover;
   }
 
@@ -577,7 +577,7 @@ html, body{
     left: 250px;
     height: 270px;
     width: 202px;
-    background: top right no-repeat url(img/pic2.svg);
+    background: top right no-repeat url(img/pic2.jpg);
     background-size: cover;
   }
 
@@ -589,7 +589,7 @@ html, body{
     left: 476px;
     height: 270px;
     width: 181px;
-    background: top right no-repeat url(img/pic3.svg);
+    background: top right no-repeat url(img/pic3.jpg);
     background-size: cover;
     overflow: hidden;
   }
@@ -771,7 +771,7 @@ html, body{
     left: 0;
     height: 300px;
     width: 226px;
-    background: top right no-repeat url(img/pic1.svg);
+    background: top right no-repeat url(img/pic1.jpg);
     background-size: cover;
   }
 
@@ -783,7 +783,7 @@ html, body{
     left: 250px;
     height: 270px;
     width: 202px;
-    background: top right no-repeat url(img/pic2.svg);
+    background: top right no-repeat url(img/pic2.jpg);
     background-size: cover;
   }
 
@@ -795,7 +795,7 @@ html, body{
     left: 476px;
     height: 270px;
     width: 181px;
-    background: top right no-repeat url(img/pic3.svg);
+    background: top right no-repeat url(img/pic3.jpg);
     background-size: cover;
     overflow: hidden;
   }
@@ -976,7 +976,7 @@ html, body{
     left: 0;
     height: 422px;
     width: 317px;
-    background: top right no-repeat url(img/pic1.svg);
+    background: top right no-repeat url(img/pic1.jpg);
     background-size: cover;
   }
 
@@ -988,7 +988,7 @@ html, body{
     left: 351px;
     height: 380px;
     width: 284px;
-    background: top right no-repeat url(img/pic2.svg);
+    background: top right no-repeat url(img/pic2.jpg);
     background-size: cover;
   }
 
@@ -1000,7 +1000,7 @@ html, body{
     left: 669px;
     height: 380px;
     width: 208px;
-    background: top right no-repeat url(img/pic3.svg);
+    background: top right no-repeat url(img/pic3.jpg);
     background-size: cover;
   }
 }
