@@ -310,7 +310,7 @@ html, body{
     width: 399px;
     margin-left: 15px;
     margin-top: 3px;
-    margin-bottom: 36px;
+    margin-bottom: 39px;
   }
 
   .main__button{
@@ -516,7 +516,7 @@ html, body{
     width: 399px;
     margin-left: 15px;
     margin-top: 3px;
-    margin-bottom: 36px;
+    margin-bottom: 39px;
   }
 
   .main__button{
@@ -927,14 +927,14 @@ html, body{
     width: 551px;
     margin-top: 9px;
     margin-left: 20px;
-    margin-bottom: 54px;
+    margin-bottom: 55px;
   }
 
   .main__button{
     color: #fff;
     font: 22px/26px "MuseoSansCyrl700", sans-serif;
     position: relative;
-    padding: 17px 86px 17px 87px;
+    padding: 17px 88px 18px 87px;
     margin-left: 22px;
     background: #D4BEA3;
     text-decoration: none;
