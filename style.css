@@ -62,7 +62,7 @@ html, body{
 
   .main__subtitle{
     position: absolute;
-    top: 148px;
+    top: 147px;
     left: 59px;
     z-index: 1;
     font: 60px/80px "pt_serifbold", serif;
@@ -75,7 +75,7 @@ html, body{
     letter-spacing: 0.2px;
     color: #F8EEE4;
     width: 295px;
-    margin: 39px auto 46px auto;
+    margin: 39px auto 48px auto;
     text-align: center;
   }
 
@@ -83,7 +83,7 @@ html, body{
     color: #fff;
     font: 16px/19px "MuseoSansCyrl700", sans-serif;
     position: relative;
-    padding: 12px 61px 12px 62px;
+    padding: 12px 62px 13px 62px;
     margin-left: 60px;
     background: #D4BEA3;
     text-decoration: none;
