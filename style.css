@@ -2,26 +2,72 @@ html, body{
   height: 100%;
 }
 
+body {
+  margin: 0;
+  background-image: url("img/iswanto_arif.png");
+  background-position-x: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  background-image: url("img/logo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  position: relative;
+}
+
+.main__title{
+  margin: 0;
+  color: #F8EEE4;
+  opacity: 0.4;
+}
+
+.main__subtitle{
+  position: absolute;
+  z-index: 1;
+  color: #F8EEE4;
+  margin: 0;
+}
+
+.main__text{
+  color: #F8EEE4;
+}
+
+.main__button{
+  color: #fff;
+  position: relative;
+  background: #D4BEA3;
+  text-decoration: none;
+  border-radius: 48px;
+  transition: opacity 0.5s;
+}
+
+
 @media (min-width: 200px) and (max-width: 1019px){
   body {
-    margin: 0;
-    background-image: url("img/iswanto_arif.png");
     background-size: 1152px 768px;
-    background-position-x: center;
     background-position-y: -39px;
-    overflow: hidden;
-    background-repeat: no-repeat;
   }
 
   .wrapper {
     width: 96vw;
     margin-left: 4vw;
-    position: relative;
   }
 
   .header {
-    display: flex;
-    justify-content: space-between;
     margin-top: 42px;
     margin-left: 0;
     margin-bottom: 59px;
@@ -40,13 +86,9 @@ html, body{
     width: 104px;
     height: 39px;
     margin-left: 25px;
-    background-image: url("img/logo.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
   .main {
-    position: relative;
     width: 343px;
     height: 65vh;
     left: -8px;
@@ -54,41 +96,27 @@ html, body{
   }
 
   .main__title{
-    margin: 0;
     font: 170px/225px "pt_serifbold", serif;
-    color: #F8EEE4;
-    opacity: 0.4;
   }
 
   .main__subtitle{
-    position: absolute;
     top: 147px;
     left: 59px;
-    z-index: 1;
     font: 60px/80px "pt_serifbold", serif;
-    color: #F8EEE4;
-    margin: 0;
   }
 
   .main__text{
     font: 18px/21.6px "MuseoSansCyrl300", sans-serif;
     letter-spacing: 0.2px;
-    color: #F8EEE4;
     width: 295px;
     margin: 39px auto 48px auto;
     text-align: center;
   }
 
   .main__button{
-    color: #fff;
     font: 16px/19px "MuseoSansCyrl700", sans-serif;
-    position: relative;
     padding: 12px 62px 13px 62px;
     margin-left: 60px;
-    background: #D4BEA3;
-    text-decoration: none;
-    border-radius: 48px;
-    transition: opacity 0.5s;
   }
 
   #menu__toggle {
@@ -186,24 +214,16 @@ html, body{
 
 @media (min-width: 1020px) and (max-width: 1365px){
   body {
-    margin: 0;
-    background-image: url("img/iswanto_arif.png");
     background-size: 1433px 955px;
-    background-position-x: center;
     background-position-y: -40px;
-    overflow: hidden;
-    background-repeat: no-repeat;
   }
 
   .wrapper {
     width: 96vw;
     margin-left: 4vw;
-    position: relative;
   }
 
   .header {
-    display: flex;
-    justify-content: space-between;
     margin-top: 63px;
     margin-left: 0;
     margin-bottom: 98px;
@@ -230,9 +250,6 @@ html, body{
     width: 104px;
     height: 39px;
     margin-right: 483px;
-    background-image: url("img/logo.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
   .menu__item {
@@ -283,30 +300,21 @@ html, body{
   }
 
   .main {
-    position: relative;
     height: 397px;
   }
 
   .main__title{
-    margin: 0;
     font: 200px/265px "pt_serifbold", serif;
-    color: #F8EEE4;
-    opacity: 0.4;
   }
 
   .main__subtitle{
-    position: absolute;
     top: 162px;
     left: 59px;
-    z-index: 1;
     font: 70px/93px "pt_serifbold", serif;
-    color: #F8EEE4;
-    margin: 0;
   }
 
   .main__text{
     font: 16px/19px "MuseoSansCyrl500_normal", sans-serif;
-    color: #F8EEE4;
     width: 399px;
     margin-left: 15px;
     margin-top: 3px;
@@ -314,15 +322,9 @@ html, body{
   }
 
   .main__button{
-    color: #fff;
     font: 16px/19px "MuseoSansCyrl700", sans-serif;
-    position: relative;
     padding: 12px 63px 12px 62px;
     margin-left: 15px;
-    background: #D4BEA3;
-    text-decoration: none;
-    border-radius: 48px;
-    transition: opacity 0.5s;
   }
 
   .gallery{
@@ -392,28 +394,18 @@ html, body{
 
 @media (min-width: 1366px) and (max-width: 1430px){
   body {
-    margin: 0;
-    background-image: url("img/iswanto_arif.png");
     background-size: 1433px 955px;
-    background-position-x: center;
     background-position-y: -40px;
-    overflow: hidden;
-    background-repeat: no-repeat;
   }
 
   .wrapper {
     width: 89.6vw;
     margin-left: 10.4vw;
-    position: relative;
   }
 
   .header {
     display: flex;
     justify-content: space-between;
-    margin-top: 63px;
-    margin-left: 0;
-    margin-bottom: 95px;
-    margin-right: 81px;
   }
 
   .hamburger-menu,
@@ -436,9 +428,6 @@ html, body{
     width: 104px;
     height: 39px;
     margin-right: 680px;
-    background-image: url("img/logo.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
   .menu__item {
@@ -489,30 +478,21 @@ html, body{
   }
 
   .main {
-    position: relative;
     height: 397px;
   }
 
   .main__title{
-    margin: 0;
     font: 200px/265px "pt_serifbold", serif;
-    color: #F8EEE4;
-    opacity: 0.4;
   }
 
   .main__subtitle{
-    position: absolute;
     top: 163px;
     left: 59px;
-    z-index: 1;
     font: 70px/93px "pt_serifbold", serif;
-    color: #F8EEE4;
-    margin: 0;
   }
 
   .main__text{
     font: 16px/19px "MuseoSansCyrl500_normal", sans-serif;
-    color: #F8EEE4;
     width: 399px;
     margin-left: 15px;
     margin-top: 3px;
@@ -520,15 +500,9 @@ html, body{
   }
 
   .main__button{
-    color: #fff;
     font: 16px/19px "MuseoSansCyrl700", sans-serif;
-    position: relative;
     padding: 12px 61px 12px 62px;
     margin-left: 15px;
-    background: #D4BEA3;
-    text-decoration: none;
-    border-radius: 48px;
-    transition: opacity 0.5s;
   }
 
   .gallery{
@@ -598,24 +572,16 @@ html, body{
 
 @media (min-width: 1431px) and (max-width: 1919px){
   body {
-    margin: 0;
-    background-image: url("img/iswanto_arif.png");
     background-size: 2014px 1343px;
-    background-position-x: center;
     background-position-y: -56px;
-    overflow: hidden;
-    background-repeat: no-repeat;
   }
 
   .wrapper {
     width: 89.6vw;
     margin-left: 10.4vw;
-    position: relative;
   }
 
   .header {
-    display: flex;
-    justify-content: space-between;
     margin-top: 63px;
     margin-left: 0;
     margin-bottom: 92px;
@@ -642,9 +608,6 @@ html, body{
     width: 104px;
     height: 39px;
     margin-right: 680px;
-    background-image: url("img/logo.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
   .menu__item {
@@ -695,30 +658,21 @@ html, body{
   }
 
   .main {
-    position: relative;
     height: 397px;
   }
 
   .main__title{
-    margin: 0;
     font: 200px/265px "pt_serifbold", serif;
-    color: #F8EEE4;
-    opacity: 0.4;
   }
 
   .main__subtitle{
-    position: absolute;
     top: 164px;
     left: 59px;
-    z-index: 1;
     font: 70px/93px "pt_serifbold", serif;
-    color: #F8EEE4;
-    margin: 0;
   }
 
   .main__text{
     font: 16px/19px "MuseoSansCyrl500_normal", sans-serif;
-    color: #F8EEE4;
     width: 399px;
     margin-left: 15px;
     margin-top: 6px;
@@ -726,15 +680,9 @@ html, body{
   }
 
   .main__button{
-    color: #fff;
     font: 16px/19px "MuseoSansCyrl700", sans-serif;
-    position: relative;
     padding: 12px 61px 12px 62px;
     margin-left: 15px;
-    background: #D4BEA3;
-    text-decoration: none;
-    border-radius: 48px;
-    transition: opacity 0.5s;
   }
 
   .gallery{
@@ -804,24 +752,16 @@ html, body{
 
 @media (min-width: 1920px){
   body {
-    margin: 0;
-    background-image: url("img/iswanto_arif.png");
     background-size: 2014px 1343px;
-    background-position-x: center;
     background-position-y: -56px;
-    overflow: hidden;
-    background-repeat: no-repeat;
   }
 
   .wrapper {
     width: 89.6vw;
     margin-left: 10.4vw;
-    position: relative;
   }
 
   .header {
-    display: flex;
-    justify-content: space-between;
     margin-top: 88px;
     margin-left: 0;
     margin-bottom: 132px;
@@ -848,8 +788,6 @@ html, body{
     width: 146px;
     height: 55px;
     margin-right: 956px;
-    background-image: url("img/logo.svg");
-    background-repeat: no-repeat;
   }
 
   .menu__item {
@@ -900,30 +838,21 @@ html, body{
   }
 
   .main {
-    position: relative;
     height: 558px;
   }
 
   .main__title{
-    margin: 0;
     font: 280px/371px "pt_serifbold", serif;
-    color: #F8EEE4;
-    opacity: 0.4;
   }
 
   .main__subtitle{
-    position: absolute;
     left: 83px;
     top: 231px;
-    z-index: 1;
     font: 98px/130px "pt_serifbold", serif;
-    color: #F8EEE4;
-    margin: 0;
   }
 
   .main__text{
     font: 22px/26px "MuseoSansCyrl500_normal", sans-serif;
-    color: #F8EEE4;
     width: 551px;
     margin-top: 9px;
     margin-left: 20px;
@@ -931,15 +860,9 @@ html, body{
   }
 
   .main__button{
-    color: #fff;
     font: 22px/26px "MuseoSansCyrl700", sans-serif;
-    position: relative;
     padding: 17px 88px 18px 87px;
     margin-left: 22px;
-    background: #D4BEA3;
-    text-decoration: none;
-    border-radius: 48px;
-    transition: opacity 0.5s;
   }
 
   .gallery{
