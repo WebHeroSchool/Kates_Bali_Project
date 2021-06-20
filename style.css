@@ -151,20 +151,20 @@ body {
   }
 
   .main__title{
-    font: 170px/225px "pt_serifbold", serif;
+    font: 140px/186px "pt_serifbold", serif;
   }
 
   .main__subtitle{
-    top: 147px;
-    left: 59px;
-    font: 60px/80px "pt_serifbold", serif;
+    top: 120px;
+    left: 50px;
+    font: 50px/66px "pt_serifbold", serif;
   }
 
   .main__text{
-    font: 18px/21.6px "MuseoSansCyrl300", sans-serif;
+    font: 15px/18px "MuseoSansCyrl300", sans-serif;
     letter-spacing: 0.2px;
-    width: 295px;
-    margin: 39px auto 48px auto;
+    width: 244px;
+    margin: 30px auto 48px auto;
     text-align: center;
   }
 
@@ -263,6 +263,26 @@ body {
     visibility: visible;
     opacity: 1;
     left: 0;
+  }
+
+}
+
+@media (min-width: 350px){
+
+  .main__title{
+    font: 170px/225px "pt_serifbold", serif;
+  }
+
+  .main__subtitle{
+    top: 147px;
+    left: 59px;
+    font: 60px/80px "pt_serifbold", serif;
+  }
+
+  .main__text{
+    font: 18px/21.6px "MuseoSansCyrl300", sans-serif;
+    width: 295px;
+    margin: 39px auto 48px auto;
   }
 
 }
