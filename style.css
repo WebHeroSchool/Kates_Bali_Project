@@ -752,3 +752,19 @@ body {
   }
 
 }
+
+@media (min-width: 2620px){
+
+  body {
+    background-image: url("img/iswanto_arif.png");
+    background-size: 4005px 2671px;
+  }
+
+  .wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 50vw;
+    margin: auto;
+  }
+
+}
