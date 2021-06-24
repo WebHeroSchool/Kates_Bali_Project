@@ -114,8 +114,7 @@ body {
   overflow: hidden;
 }
 
-
-@media (min-width: 200px){
+@media (min-width: 200px) {
   body {
     background-size: 1152px 768px;
     background-position-y: -39px;
@@ -245,7 +244,7 @@ body {
 
   #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
-    background-color: #F8EEE4;
+    background-color: #f8eee4;
   }
 
   #menu__toggle:checked ~ .menu__btn > span::before {
@@ -268,8 +267,7 @@ body {
 
 }
 
-@media (min-width: 350px){
-
+@media (min-width: 350px) {
   .main__title{
     font: 170px/225px "pt_serifbold", serif;
   }
@@ -288,7 +286,7 @@ body {
 
 }
 
-@media (min-width: 500px){
+@media (min-width: 500px) {
 
   body {
     background-size: 1685px 1124px;
@@ -296,7 +294,7 @@ body {
 
 }
 
-@media (min-width: 769px){
+@media (min-width: 769px) {
   body {
     background-size: 1433px 955px;
     background-position-y: -40px;
@@ -414,7 +412,7 @@ body {
 
 }
 
-@media (min-width: 1020px){
+@media (min-width: 1020px) {
   body {
     background-size: 1433px 955px;
     background-position-y: -40px;
@@ -533,7 +531,7 @@ body {
 
 }
 
-@media (min-width: 1366px){
+@media (min-width: 1366px) {
   body {
     background-size: 1433px 955px;
     background-position-y: -40px;
@@ -564,7 +562,7 @@ body {
   .menu {
     display: flex;
     align-items:center;
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .logo{
@@ -588,7 +586,7 @@ body {
 
 }
 
-@media (min-width: 1431px){
+@media (min-width: 1431px) {
   body {
     background-size: 2014px 1343px;
     background-position-y: -56px;
@@ -644,7 +642,7 @@ body {
 
 }
 
-@media (min-width: 1920px){
+@media (min-width: 1920px) {
   body {
     background-size: 2014px 1343px;
     background-position-y: -56px;
@@ -746,7 +744,7 @@ body {
 
 }
 
-@media (min-width: 2015px){
+@media (min-width: 2015px) {
 
   body {
     background-size: 2618px 1746px;
@@ -754,7 +752,7 @@ body {
 
 }
 
-@media (min-width: 2620px){
+@media (min-width: 2620px) {
 
   body {
     background-image: url("img/iswanto_arif.png");
@@ -774,8 +772,7 @@ body {
 
 }
 
-@media (min-width: 3450px){
-
+@media (min-width: 3450px) {
   .wrapper {
     width: 50vw;
   }
