@@ -225,7 +225,7 @@ body {
     padding: 186px 0 0 0;
     list-style: none;
     text-align: center;
-    background-color: #e5e5e5;
+    background-color: #3e554d;
     z-index: 2;
     transition: 0.5s;
   }
@@ -233,7 +233,7 @@ body {
   .menu__point {
     display: block;
     padding: 0 0 24px 0;
-    color: #000;
+    color: #F8EEE4;
     font: normal 30px/36px "MuseoSansCyrl700", sans-serif;
     text-decoration: none;
     transition: 0.5s;
@@ -245,19 +245,19 @@ body {
 
   #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
-    background-color: #172F27;
+    background-color: #F8EEE4;
   }
 
   #menu__toggle:checked ~ .menu__btn > span::before {
     top: 0;
     transform: rotate(0);
-    background-color: #172F27;
+    background-color: #F8EEE4;
   }
 
   #menu__toggle:checked ~ .menu__btn > span::after {
     top: 0;
     transform: rotate(90deg);
-    background-color: #172F27;
+    background-color: #F8EEE4;
   }
 
   #menu__toggle:checked ~ .menu__box {
