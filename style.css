@@ -761,10 +761,22 @@ body {
   }
 
   .wrapper {
-    position: relative;
-    overflow: hidden;
-    width: 50vw;
+    width: 60vw;
     margin: auto;
+  }
+
+  .logo{
+    width: 146px;
+    height: 55px;
+    margin-right: 800px;
+  }
+
+}
+
+@media (min-width: 3450px){
+
+  .wrapper {
+    width: 50vw;
   }
 
 }
