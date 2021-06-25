@@ -250,13 +250,13 @@ body {
   #menu__toggle:checked ~ .menu__btn > span::before {
     top: 0;
     transform: rotate(0);
-    background-color: #F8EEE4;
+    background-color: #f8eee4;
   }
 
   #menu__toggle:checked ~ .menu__btn > span::after {
     top: 0;
     transform: rotate(90deg);
-    background-color: #F8EEE4;
+    background-color: #f8eee4;
   }
 
   #menu__toggle:checked ~ .menu__box {
