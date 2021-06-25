@@ -35,25 +35,25 @@ body {
 
 .main__title{
   margin: 0;
-  color: #F8EEE4;
+  color: #f8eee4;
   opacity: 0.4;
 }
 
 .main__subtitle{
   position: absolute;
   z-index: 1;
-  color: #F8EEE4;
+  color: #f8eee4;
   margin: 0;
 }
 
 .main__text{
-  color: #F8EEE4;
+  color: #f8eee4;
 }
 
 .main__button{
   color: #fff;
   position: relative;
-  background: #D4BEA3;
+  background: #d4bea3;
   text-decoration: none;
   border-radius: 48px;
   transition: opacity 0.5s;
@@ -448,7 +448,7 @@ body {
     position: relative;
     margin-right: 26px;
     font: 16px/19px "MuseoSansCyrl500", sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
     text-decoration: none;
     transition: opacity 0.5s;
   }
@@ -744,7 +744,6 @@ body {
 }
 
 @media (min-width: 2015px) {
-
   body {
     background-size: 2618px 1746px;
   }
@@ -752,7 +751,6 @@ body {
 }
 
 @media (min-width: 2620px) {
-
   body {
     background-image: url("img/iswanto_arif.png");
     background-size: 4005px 2671px;
