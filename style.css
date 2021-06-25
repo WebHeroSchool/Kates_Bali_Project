@@ -198,7 +198,7 @@ body {
     position: absolute;
     width: 100%;
     height: 3px;
-    background-color: #172f27;
+    background-color: #fcf5ed;
     transition: 0.5s;
   }
 
@@ -245,19 +245,19 @@ body {
 
   #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
-    background-color: #f8eee4;
+    background-color: #172f27;
   }
 
   #menu__toggle:checked ~ .menu__btn > span::before {
     top: 0;
     transform: rotate(0);
-    background-color: #f8eee4;
+    background-color: #172f27;
   }
 
   #menu__toggle:checked ~ .menu__btn > span::after {
     top: 0;
     transform: rotate(90deg);
-    background-color: #f8eee4;
+    background-color: #172f27;
   }
 
   #menu__toggle:checked ~ .menu__box {
